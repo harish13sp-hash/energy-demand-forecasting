@@ -1,0 +1,78 @@
+# Energy Demand Forecasting & Consumption Analytics
+
+## Project Overview
+
+This project analyzes hourly energy consumption data and forecasts energy demand using Python and Machine Learning. SQL is used for energy data analysis, and Power BI is used to create interactive reports and dashboards.
+
+## Project Objectives
+
+* Analyze hourly and monthly energy consumption patterns.
+* Identify peak and non-peak demand periods.
+* Compare energy generation and consumption.
+* Forecast energy consumption for May 2025.
+* Present key insights using a Power BI dashboard.
+
+## Dataset Details
+
+* **Data Period:** January 2024 – May 2025
+* **Total Records:** 12,385 hourly records
+* **Target Variable:** `consumption_mw`
+
+## Tools and Technologies
+
+* **Python:** Data analysis and forecasting
+* **Pandas:** Data cleaning and manipulation
+* **Scikit-learn:** Machine learning
+* **Random Forest Regression:** Energy demand forecasting
+* **SQL:** Data querying and aggregation
+* **Power BI:** Reporting, visualization, and dashboard creation
+
+## Project Workflow
+
+1. Loaded the energy dataset using Python and Pandas.
+2. Performed data cleaning and data quality checks.
+3. Created time-based features such as hour, day, month, year, weekend, holiday, night, and peak hour.
+4. Conducted Exploratory Data Analysis (EDA) to understand consumption patterns.
+5. Used SQL queries to analyze hourly consumption, monthly trends, peak demand, and energy generation.
+6. Built a Random Forest Regression model using a chronological train-test split.
+7. Evaluated the model using MAE, RMSE, and MAPE.
+8. Developed a three-page Power BI dashboard to present energy insights and forecasting results.
+
+## Model Performance
+
+* **MAE:** 66.24 MW
+* **RMSE:** 79.24 MW
+* **MAPE:** 38.50%
+
+These metrics represent the model's reported test-set results. The MAPE value indicates that the forecasting errors are substantial, so predictions should be interpreted with caution.
+
+## Power BI Dashboard
+
+The dashboard contains three pages:
+
+1. **Energy Demand Overview** – Energy consumption KPIs and demand trends.
+2. **Consumption & Generation Analysis** – Consumption patterns and generation comparisons.
+3. **Energy Demand Forecasting** – Actual versus forecast energy consumption.
+
+## Key Skills Demonstrated
+
+* Data cleaning and preprocessing
+* Feature engineering
+* Exploratory Data Analysis
+* SQL querying and aggregation
+* Machine learning forecasting
+* Model evaluation
+* Power BI reporting and dashboard development
+
+## Repository Structure
+
+* `data/` – Dataset files
+* `notebooks/` – Python analysis and forecasting notebook
+* `sql/` – SQL queries
+* `powerbi/` – Power BI dashboard
+* `images/` – Dashboard screenshots
+* `requirements.txt` – Python dependencies
+
+## Author
+
+Harish P
